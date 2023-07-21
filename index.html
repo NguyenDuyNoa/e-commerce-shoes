@@ -8,6 +8,7 @@
   <title>Nike. Just do it</title>
   <link rel="shortcut icon" href="./assets/images/logo.png" type="image/svg+xml">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/font/themify-icons.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -24,21 +25,21 @@
       <div class="overlay" data-overlay></div>
 
       <a href="#" class="logo">
-        <img src="./assets/images/logo.png" width="120" height="90" alt="Nike">
+        <img src="./assets/images/logo.png" width="80" height="60" alt="Nike">
       </a>
 
       <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
-        <ion-icon name="menu-outline"></ion-icon>
+        <i class="ti-menu"></i>
       </button>
 
       <nav class="navbar" data-navbar>
 
         <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
-          <ion-icon name="close-outline"></ion-icon>
+          <i class="ti-close"></i>
         </button>
 
         <a href="#" class="logo">
-          <img src="./assets/images/logo.svg" width="190" height="50" alt="Footcap logo">
+          <img src="./assets/images/logo.png" width="160" height="120" alt="Footcap logo">
         </a>
 
         <ul class="navbar-list">
@@ -66,28 +67,29 @@
         </ul>
 
         <ul class="nav-action-list">
+          <!-- name="search-outline"  -->
 
           <li>
             <button class="nav-action-btn">
-              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+              <i class="ti-search" aria-hidden="true"></i>
 
-              <span class="nav-action-text">Search</span>
+              <span class="nav-action-text">Tìm Kiếm</span>
             </button>
           </li>
 
           <li>
             <a href="#" class="nav-action-btn">
-              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+              <i class="ti-user" aria-hidden="true"></i>
 
-              <span class="nav-action-text">Login / Register</span>
+              <span class="nav-action-text">Đăng nhập / Đăng xuất</span>
             </a>
           </li>
 
           <li>
             <button class="nav-action-btn">
-              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              <i class="ti-heart" aria-hidden="true"></i>
 
-              <span class="nav-action-text">Wishlist</span>
+              <span class="nav-action-text">Ưa thích</span>
 
               <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
             </button>
@@ -95,11 +97,11 @@
 
           <li>
             <button class="nav-action-btn">
-              <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+              <i class="ti-bag" aria-hidden="true"></i>
 
-              <data class="nav-action-text" value="318.00">Basket: <strong>$318.00</strong></data>
+              <data class="nav-action-text" value="0">Giỏ hàng: <strong>0đ</strong></data>
 
-              <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
+              <data class="nav-action-badge" value="0" aria-hidden="true">0</data>
             </button>
           </li>
 
@@ -111,45 +113,33 @@
   </header>
 
 
-
-
-
   <main>
     <article>
 
-      <!-- 
-        - #HERO
-      -->
+      <!-- BANNER -->
 
       <section class="section hero" style="background-image: url('./assets/images/hero-banner.png')">
         <div class="container">
 
           <h2 class="h1 hero-title">
-            New Summer <strong>Shoes Collection</strong>
+            Mùa Hè Mới <strong>Bộ Sưu Tập Giày</strong>
           </h2>
 
           <p class="hero-text">
-            Competently expedite alternative benefits whereas leading-edge catalysts for change. Globally leverage
-            existing an
-            expanded array of leadership.
+            Hãy mang những giấc mơ của bạn lên đôi chân để dẫn lối giấc mơ đó thành hiện thực.
           </p>
 
           <button class="btn btn-primary">
-            <span>Shop Now</span>
+            <span>Mua Ngay</span>
 
-            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            <i class="ti-angle-double-right" aria-hidden="true"></i>
           </button>
 
         </div>
       </section>
 
 
-
-
-
-      <!-- 
-        - #COLLECTION
-      -->
+      <!-- #COLLECTION -->
 
       <section class="section collection">
         <div class="container">
@@ -158,36 +148,36 @@
 
             <li>
               <div class="collection-card" style="background-image: url('./assets/images/collection-1.jpg')">
-                <h3 class="h4 card-title">Bộ sưu tập Nam</h3>
+                <h3 class="h4 card-title">Bộ sưu tập nam</h3>
 
                 <a href="#" class="btn btn-secondary">
-                  <span>Explore All</span>
+                  <span>Xem Ngay</span>
 
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  <i class="ti-angle-double-right" aria-hidden="true"></i>
                 </a>
               </div>
             </li>
 
             <li>
               <div class="collection-card" style="background-image: url('./assets/images/collection-2.jpg')">
-                <h3 class="h4 card-title">Bộ sưu tập Nữ</h3>
+                <h3 class="h4 card-title">Bộ sưu tập nữ</h3>
 
                 <a href="#" class="btn btn-secondary">
-                  <span>Explore All</span>
+                  <span>Xem Ngay</span>
 
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  <i class="ti-angle-double-right" aria-hidden="true"></i>
                 </a>
               </div>
             </li>
 
             <li>
               <div class="collection-card" style="background-image: url('./assets/images/collection-3.jpg')">
-                <h3 class="h4 card-title">Sports Collections</h3>
+                <h3 class="h4 card-title">Bộ sưu tập thể thao</h3>
 
                 <a href="#" class="btn btn-secondary">
-                  <span>Explore All</span>
+                  <span>Xem Ngay</span>
 
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  <i class="ti-angle-double-right" aria-hidden="true"></i>
                 </a>
               </div>
             </li>
@@ -198,12 +188,7 @@
       </section>
 
 
-
-
-
-      <!-- 
-        - #PRODUCT
-      -->
+      <!-- PRODUCT -->
 
       <section class="section product">
         <div class="container">
@@ -247,40 +232,38 @@
                   <img src="./assets/images/product-1.jpg" width="312" height="350" loading="lazy"
                     alt="Running Sneaker Shoes" class="image-contain">
 
-                  <div class="card-badge">New</div>
+                  <div class="card-badge">Mới</div>
 
                   <ul class="card-action-list">
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-1">
-                        <ion-icon name="cart-outline"></ion-icon>
+                        <i class="ti-shopping-cart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      <div class="card-action-tooltip" id="card-label-1">Thêm vào giỏ hàng</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-2">
-                        <ion-icon name="heart-outline"></ion-icon>
+                        <i class="ti-heart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      <div class="card-action-tooltip" id="card-label-2">Yêu thích</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-3">
-                        <ion-icon name="eye-outline"></ion-icon>
+                        <i class="ti-eye"></i>
                       </button>
-
-                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      <div class="card-action-tooltip" id="card-label-3">Xem nhanh</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-4">
-                        <ion-icon name="repeat-outline"></ion-icon>
+                        <i class="ti-reload"></i>
                       </button>
-
-                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      <div class="card-action-tooltip" id="card-label-4">So sánh</div>
                     </li>
 
                   </ul>
@@ -294,10 +277,10 @@
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Running Sneaker Shoes</a>
+                    <a href="#">Nike Zoom Fly 5</a>
                   </h3>
 
-                  <data class="card-price" value="180.85">$180.85</data>
+                  <data class="card-price" value="4.699.000">4.699.000₫</data>
 
                 </div>
 
@@ -315,34 +298,33 @@
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-1">
-                        <ion-icon name="cart-outline"></ion-icon>
+                        <i class="ti-shopping-cart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      <div class="card-action-tooltip" id="card-label-1">Thêm vào giỏ hàng</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-2">
-                        <ion-icon name="heart-outline"></ion-icon>
+                        <i class="ti-heart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      <div class="card-action-tooltip" id="card-label-2">Yêu thích</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-3">
-                        <ion-icon name="eye-outline"></ion-icon>
+                        <i class="ti-eye"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      <div class="card-action-tooltip" id="card-label-3">Xem nhanh</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-4">
-                        <ion-icon name="repeat-outline"></ion-icon>
+                        <i class="ti-reload"></i>
                       </button>
-
-                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      <div class="card-action-tooltip" id="card-label-4">So sánh</div>
                     </li>
 
                   </ul>
@@ -356,10 +338,10 @@
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Leather Mens Slipper</a>
+                    <a href="#">Jordan One Take 4 PF</a>
                   </h3>
 
-                  <data class="card-price" value="190.85">$190.85</data>
+                  <data class="card-price" value="2.929.000">2.929.000₫</data>
 
                 </div>
 
@@ -373,40 +355,40 @@
                   <img src="./assets/images/product-3.jpg" width="312" height="350" loading="lazy"
                     alt="Simple Fabric Shoe" class="image-contain">
 
-                  <div class="card-badge">New</div>
+                  <div class="card-badge">Mới</div>
 
                   <ul class="card-action-list">
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-1">
-                        <ion-icon name="cart-outline"></ion-icon>
+                        <i class="ti-shopping-cart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      <div class="card-action-tooltip" id="card-label-1">Thêm vào giỏ hàng</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-2">
-                        <ion-icon name="heart-outline"></ion-icon>
+                        <i class="ti-heart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      <div class="card-action-tooltip" id="card-label-2">Yêu thích</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-3">
-                        <ion-icon name="eye-outline"></ion-icon>
+                        <i class="ti-eye"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      <div class="card-action-tooltip" id="card-label-3">Xem nhanh</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-4">
-                        <ion-icon name="repeat-outline"></ion-icon>
+                        <i class="ti-reload"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      <div class="card-action-tooltip" id="card-label-4">So sánh</div>
                     </li>
 
                   </ul>
@@ -420,10 +402,10 @@
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Simple Fabric Shoe</a>
+                    <a href="#">Nike Air Max 90</a>
                   </h3>
 
-                  <data class="card-price" value="160.85">$160.85</data>
+                  <data class="card-price" value="3.519.000">3.519.000₫</data>
 
                 </div>
 
@@ -443,34 +425,34 @@
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-1">
-                        <ion-icon name="cart-outline"></ion-icon>
+                        <i class="ti-shopping-cart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      <div class="card-action-tooltip" id="card-label-1">Thêm vào giỏ hàng</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-2">
-                        <ion-icon name="heart-outline"></ion-icon>
+                        <i class="ti-heart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      <div class="card-action-tooltip" id="card-label-2">Yêu thích</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-3">
-                        <ion-icon name="eye-outline"></ion-icon>
+                        <i class="ti-eye"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      <div class="card-action-tooltip" id="card-label-3">Xem nhanh</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-4">
-                        <ion-icon name="repeat-outline"></ion-icon>
+                        <i class="ti-reload"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      <div class="card-action-tooltip" id="card-label-4">So sánh</div>
                     </li>
 
                   </ul>
@@ -484,10 +466,10 @@
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Air Jordan 7 Retro </a>
+                    <a href="#">Nike G.T. Jump 2 EP</a>
                   </h3>
 
-                  <data class="card-price" value="170.85">$170.85 <del>$200.21</del></data>
+                  <data class="card-price" value="5.279.000">5.279.000₫ <del>6.279.000₫</del></data>
 
                 </div>
 
@@ -501,40 +483,40 @@
                   <img src="./assets/images/product-5.jpg" width="312" height="350" loading="lazy"
                     alt="Nike Air Max 270 SE" class="image-contain">
 
-                  <div class="card-badge">New</div>
+                  <div class="card-badge">Mới</div>
 
                   <ul class="card-action-list">
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-1">
-                        <ion-icon name="cart-outline"></ion-icon>
+                        <i class="ti-shopping-cart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      <div class="card-action-tooltip" id="card-label-1">Thêm vào giỏ hàng</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-2">
-                        <ion-icon name="heart-outline"></ion-icon>
+                        <i class="ti-heart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      <div class="card-action-tooltip" id="card-label-2">Yêu thích</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-3">
-                        <ion-icon name="eye-outline"></ion-icon>
+                        <i class="ti-eye"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      <div class="card-action-tooltip" id="card-label-3">Xem nhanh</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-4">
-                        <ion-icon name="repeat-outline"></ion-icon>
+                        <i class="ti-reload"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      <div class="card-action-tooltip" id="card-label-4">So sánh</div>
                     </li>
 
                   </ul>
@@ -548,10 +530,10 @@
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Nike Air Max 270 SE</a>
+                    <a href="#">KD15 EP</a>
                   </h3>
 
-                  <data class="card-price" value="120.85">$120.85</data>
+                  <data class="card-price" value="4.409.000">4.409.000₫</data>
 
                 </div>
 
@@ -569,34 +551,34 @@
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-1">
-                        <ion-icon name="cart-outline"></ion-icon>
+                        <i class="ti-shopping-cart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      <div class="card-action-tooltip" id="card-label-1">Thêm vào giỏ hàng</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-2">
-                        <ion-icon name="heart-outline"></ion-icon>
+                        <i class="ti-heart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      <div class="card-action-tooltip" id="card-label-2">Yêu thích</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-3">
-                        <ion-icon name="eye-outline"></ion-icon>
+                        <i class="ti-eye"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      <div class="card-action-tooltip" id="card-label-3">Xem nhanh</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-4">
-                        <ion-icon name="repeat-outline"></ion-icon>
+                        <i class="ti-reload"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      <div class="card-action-tooltip" id="card-label-4">So sánh</div>
                     </li>
 
                   </ul>
@@ -610,10 +592,10 @@
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Adidas Sneakers Shoes</a>
+                    <a href="#">Nike Air Force 1 '07</a>
                   </h3>
 
-                  <data class="card-price" value="100.85">$100.85</data>
+                  <data class="card-price" value="3.829.000">3.829.000₫</data>
 
                 </div>
 
@@ -631,34 +613,34 @@
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-1">
-                        <ion-icon name="cart-outline"></ion-icon>
+                        <i class="ti-shopping-cart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      <div class="card-action-tooltip" id="card-label-1">Thêm vào giỏ hàng</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-2">
-                        <ion-icon name="heart-outline"></ion-icon>
+                        <i class="ti-heart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      <div class="card-action-tooltip" id="card-label-2">Yêu thích</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-3">
-                        <ion-icon name="eye-outline"></ion-icon>
+                        <i class="ti-eye"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      <div class="card-action-tooltip" id="card-label-3">Xem nhanh</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-4">
-                        <ion-icon name="repeat-outline"></ion-icon>
+                        <i class="ti-reload"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      <div class="card-action-tooltip" id="card-label-4">So sánh</div>
                     </li>
 
                   </ul>
@@ -672,10 +654,10 @@
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Nike Basketball shoes</a>
+                    <a href="#">Nike React Pegasus Trail 4 SE</a>
                   </h3>
 
-                  <data class="card-price" value="120.85">$120.85</data>
+                  <data class="card-price" value="3.829.000">3.829.000₫</data>
 
                 </div>
 
@@ -693,34 +675,34 @@
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-1">
-                        <ion-icon name="cart-outline"></ion-icon>
+                        <i class="ti-shopping-cart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                      <div class="card-action-tooltip" id="card-label-1">Thêm vào giỏ hàng</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-2">
-                        <ion-icon name="heart-outline"></ion-icon>
+                        <i class="ti-heart"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                      <div class="card-action-tooltip" id="card-label-2">Yêu thích</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-3">
-                        <ion-icon name="eye-outline"></ion-icon>
+                        <i class="ti-eye"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                      <div class="card-action-tooltip" id="card-label-3">Xem nhanh</div>
                     </li>
 
                     <li class="card-action-item">
                       <button class="card-action-btn" aria-labelledby="card-label-4">
-                        <ion-icon name="repeat-outline"></ion-icon>
+                        <i class="ti-reload"></i>
                       </button>
 
-                      <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                      <div class="card-action-tooltip" id="card-label-4">So sánh</div>
                     </li>
 
                   </ul>
@@ -734,10 +716,10 @@
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="#">Simple Fabric Shoe</a>
+                    <a href="#">Cosmic Unity 3</a>
                   </h3>
 
-                  <data class="card-price" value="100.85">$100.85</data>
+                  <data class="card-price" value="4.409.000">4.409.000₫</data>
 
                 </div>
 
@@ -750,12 +732,7 @@
       </section>
 
 
-
-
-
-      <!-- 
-        - #CTA
-      -->
+      <!-- CTA -->
 
       <section class="section cta">
         <div class="container">
@@ -764,28 +741,28 @@
 
             <li>
               <div class="cta-card" style="background-image: url('./assets/images/cta-1.jpg')">
-                <p class="card-subtitle">Adidas Shoes</p>
+                <p class="card-subtitle">Nike Lifestyle</p>
 
-                <h3 class="h2 card-title">The Summer Sale Off 50%</h3>
+                <h3 class="h2 card-title">Khuyến Mãi Mùa Hè Giảm 50%</h3>
 
                 <a href="#" class="btn btn-link">
-                  <span>Shop Now</span>
+                  <span>Mua Ngay</span>
 
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  <i class="ti-angle-double-right" aria-hidden="true"></i>
                 </a>
               </div>
             </li>
 
             <li>
               <div class="cta-card" style="background-image: url('./assets/images/cta-2.jpg')">
-                <p class="card-subtitle">Nike Shoes</p>
+                <p class="card-subtitle">Nike Running</p>
 
-                <h3 class="h2 card-title">Makes Yourself Keep Sporty</h3>
+                <h3 class="h2 card-title">Sức Khỏe Quý Hơn Vàng</h3>
 
                 <a href="#" class="btn btn-link">
-                  <span>Shop Now</span>
+                  <span>Mua Ngay</span>
 
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  <i class="ti-angle-double-right" aria-hidden="true"></i>
                 </a>
               </div>
             </li>
@@ -796,30 +773,25 @@
       </section>
 
 
-
-
-
-      <!-- 
-        - #SPECIAL
-      -->
+      <!-- SPECIAL -->
 
       <section class="section special">
         <div class="container">
 
           <div class="special-banner" style="background-image: url('./assets/images/special-banner.jpg')">
-            <h2 class="h3 banner-title">New Trend Edition</h2>
+            <h2 class="h3 banner-title">Xu Hướng Mới</h2>
 
             <a href="#" class="btn btn-link">
-              <span>Explore All</span>
+              <span>Khám phá</span>
 
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              <i class="ti-angle-double-right" aria-hidden="true"></i>
             </a>
           </div>
 
           <div class="special-product">
 
             <h2 class="h2 section-title">
-              <span class="text">Nike Special</span>
+              <span class="text">Đặc Biệt</span>
 
               <span class="line"></span>
             </h2>
@@ -839,34 +811,36 @@
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-1">
-                          <ion-icon name="cart-outline"></ion-icon>
+                          <i class="ti-shopping-cart"></i>
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                        <div class="card-action-tooltip" id="card-label-1">Thêm vào giỏ hàng</div>
                       </li>
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-2">
-                          <ion-icon name="heart-outline"></ion-icon>
+                          <i class="ti-heart"></i>
+
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                        <div class="card-action-tooltip" id="card-label-2">Yêu thích</div>
                       </li>
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-3">
-                          <ion-icon name="eye-outline"></ion-icon>
+                          <i class="ti-eye"></i>
+
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                        <div class="card-action-tooltip" id="card-label-3">Xem nhanh</div>
                       </li>
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-4">
-                          <ion-icon name="repeat-outline"></ion-icon>
+                          <i class="ti-reload"></i>
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                        <div class="card-action-tooltip" id="card-label-4">So sánh</div>
                       </li>
 
                     </ul>
@@ -880,10 +854,10 @@
                     </div>
 
                     <h3 class="h3 card-title">
-                      <a href="#">Running Sneaker Shoes</a>
+                      <a href="#">Nike Zoom Fly 5</a>
                     </h3>
 
-                    <data class="card-price" value="180.85">$180.85</data>
+                    <data class="card-price" value="4.699.000">4.699.000₫</data>
 
                   </div>
 
@@ -901,34 +875,36 @@
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-1">
-                          <ion-icon name="cart-outline"></ion-icon>
+                          <i class="ti-shopping-cart"></i>
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                        <div class="card-action-tooltip" id="card-label-1">Thêm vào giỏ hàng</div>
                       </li>
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-2">
-                          <ion-icon name="heart-outline"></ion-icon>
+                          <i class="ti-heart"></i>
+
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                        <div class="card-action-tooltip" id="card-label-2">Yêu thích</div>
                       </li>
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-3">
-                          <ion-icon name="eye-outline"></ion-icon>
+                          <i class="ti-eye"></i>
+
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                        <div class="card-action-tooltip" id="card-label-3">Xem nhanh</div>
                       </li>
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-4">
-                          <ion-icon name="repeat-outline"></ion-icon>
+                          <i class="ti-reload"></i>
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                        <div class="card-action-tooltip" id="card-label-4">So sánh</div>
                       </li>
 
                     </ul>
@@ -942,10 +918,10 @@
                     </div>
 
                     <h3 class="h3 card-title">
-                      <a href="#">Leather Mens Slipper</a>
+                      <a href="#">Jordan One Take 4 PF</a>
                     </h3>
 
-                    <data class="card-price" value="190.85">$190.85</data>
+                    <data class="card-price" value="2.929.000">2.929.000₫</data>
 
                   </div>
 
@@ -965,34 +941,36 @@
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-1">
-                          <ion-icon name="cart-outline"></ion-icon>
+                          <i class="ti-shopping-cart"></i>
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                        <div class="card-action-tooltip" id="card-label-1">Thêm vào giỏ hàng</div>
                       </li>
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-2">
-                          <ion-icon name="heart-outline"></ion-icon>
+                          <i class="ti-heart"></i>
+
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                        <div class="card-action-tooltip" id="card-label-2">Yêu thích</div>
                       </li>
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-3">
-                          <ion-icon name="eye-outline"></ion-icon>
+                          <i class="ti-eye"></i>
+
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                        <div class="card-action-tooltip" id="card-label-3">Xem nhanh</div>
                       </li>
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-4">
-                          <ion-icon name="repeat-outline"></ion-icon>
+                          <i class="ti-reload"></i>
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                        <div class="card-action-tooltip" id="card-label-4">So sánh</div>
                       </li>
 
                     </ul>
@@ -1006,10 +984,10 @@
                     </div>
 
                     <h3 class="h3 card-title">
-                      <a href="#">Simple Fabric Shoe</a>
+                      <a href="#">Nike Air Max 90</a>
                     </h3>
 
-                    <data class="card-price" value="160.85">$160.85</data>
+                    <data class="card-price" value="3.519.000">3.519.000₫</data>
 
                   </div>
 
@@ -1029,34 +1007,36 @@
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-1">
-                          <ion-icon name="cart-outline"></ion-icon>
+                          <i class="ti-shopping-cart"></i>
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-1">Add to Cart</div>
+                        <div class="card-action-tooltip" id="card-label-1">Thêm vào giỏ hàng</div>
                       </li>
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-2">
-                          <ion-icon name="heart-outline"></ion-icon>
+                          <i class="ti-heart"></i>
+
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-2">Add to Whishlist</div>
+                        <div class="card-action-tooltip" id="card-label-2">Yêu thích</div>
                       </li>
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-3">
-                          <ion-icon name="eye-outline"></ion-icon>
+                          <i class="ti-eye"></i>
+
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-3">Quick View</div>
+                        <div class="card-action-tooltip" id="card-label-3">Xem nhanh</div>
                       </li>
 
                       <li class="card-action-item">
                         <button class="card-action-btn" aria-labelledby="card-label-4">
-                          <ion-icon name="repeat-outline"></ion-icon>
+                          <i class="ti-reload"></i>
                         </button>
 
-                        <div class="card-action-tooltip" id="card-label-4">Compare</div>
+                        <div class="card-action-tooltip" id="card-label-4">So sánh</div>
                       </li>
 
                     </ul>
@@ -1070,10 +1050,10 @@
                     </div>
 
                     <h3 class="h3 card-title">
-                      <a href="#">Air Jordan 7 Retro </a>
+                      <a href="#">Nike G.T. Jump 2 EP</a>
                     </h3>
 
-                    <data class="card-price" value="170.85">$170.85 <del>$200.21</del></data>
+                    <data class="card-price" value="5.279.000">5.279.000₫<del>6.279.000₫</del></data>
 
                   </div>
 
@@ -1088,12 +1068,7 @@
       </section>
 
 
-
-
-
-      <!-- 
-        - #SERVICE
-      -->
+      <!-- #SERVICE -->
 
       <section class="section service">
         <div class="container">
@@ -1108,10 +1083,10 @@
                 </div>
 
                 <div>
-                  <h3 class="h4 card-title">Free Shiping</h3>
+                  <h3 class="h4 card-title">MIễn phí vận chuyển</h3>
 
                   <p class="card-text">
-                    All orders over <span>$150</span>
+                    Hóa đơn trên <span>2.000.000₫</span>
                   </p>
                 </div>
 
@@ -1126,10 +1101,10 @@
                 </div>
 
                 <div>
-                  <h3 class="h4 card-title">Quick Payment</h3>
+                  <h3 class="h4 card-title">Thanh toán nhanh</h3>
 
                   <p class="card-text">
-                    100% secure payment
+                    100% an toàn
                   </p>
                 </div>
 
@@ -1144,10 +1119,10 @@
                 </div>
 
                 <div>
-                  <h3 class="h4 card-title">Free Returns</h3>
+                  <h3 class="h4 card-title">Miễn phí trả hàng</h3>
 
                   <p class="card-text">
-                    Money back in 30 days
+                    Hoàn tiền trong 30 ngày
                   </p>
                 </div>
 
@@ -1162,10 +1137,10 @@
                 </div>
 
                 <div>
-                  <h3 class="h4 card-title">24/7 Support</h3>
+                  <h3 class="h4 card-title">Hổ trợ 24/7</h3>
 
                   <p class="card-text">
-                    Get Quick Support
+                    Hỗ trợ nhanh
                   </p>
                 </div>
 
@@ -1177,225 +1152,45 @@
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #INSTA POST
-      -->
-
-      <section class="section insta-post">
-
-        <ul class="insta-post-list has-scrollbar">
-
-          <li class="insta-post-item">
-            <img src="./assets/images/insta-1.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
-              class="insta-post-banner image-contain">
-
-            <a href="#" class="insta-post-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li class="insta-post-item">
-            <img src="./assets/images/insta-2.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
-              class="insta-post-banner image-contain">
-
-            <a href="#" class="insta-post-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li class="insta-post-item">
-            <img src="./assets/images/insta-3.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
-              class="insta-post-banner image-contain">
-
-            <a href="#" class="insta-post-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li class="insta-post-item">
-            <img src="./assets/images/insta-4.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
-              class="insta-post-banner image-contain">
-
-            <a href="#" class="insta-post-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li class="insta-post-item">
-            <img src="./assets/images/insta-5.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
-              class="insta-post-banner image-contain">
-
-            <a href="#" class="insta-post-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li class="insta-post-item">
-            <img src="./assets/images/insta-6.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
-              class="insta-post-banner image-contain">
-
-            <a href="#" class="insta-post-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li class="insta-post-item">
-            <img src="./assets/images/insta-7.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
-              class="insta-post-banner image-contain">
-
-            <a href="#" class="insta-post-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li class="insta-post-item">
-            <img src="./assets/images/insta-8.jpg" width="100" height="100" loading="lazy" alt="Instagram post"
-              class="insta-post-banner image-contain">
-
-            <a href="#" class="insta-post-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </section>
-
     </article>
   </main>
 
 
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
+  <!-- #FOOTER -->
 
   <footer class="footer">
 
     <div class="footer-top section">
       <div class="container">
 
-        <div class="footer-brand">
-
-          <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" width="160" height="50" alt="Footcap logo">
-          </a>
-
-          <ul class="social-list">
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-pinterest"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
-        </div>
-
         <div class="footer-link-box">
 
           <ul class="footer-list">
 
             <li>
-              <p class="footer-list-title">Contact Us</p>
+              <p class="footer-list-title">Liên Hệ Chúng Tôi</p>
             </li>
 
             <li>
               <address class="footer-link">
-                <ion-icon name="location"></ion-icon>
-
+                <i class="ti-location-pin"></i>
                 <span class="footer-link-text">
-                  2751 S Parker Rd, Aurora, CO 80014, United States
+                  70 Tô Ký, Quận 12, TP. Hồ Chí Minh
                 </span>
               </address>
             </li>
 
             <li>
-              <a href="tel:+557343673257" class="footer-link">
-                <ion-icon name="call"></ion-icon>
-
-                <span class="footer-link-text">+557343673257</span>
+              <a href="tel:0336878073" class="footer-link">
+                <i class="ti-mobile"></i>
+                <span class="footer-link-text">0336878073</span>
               </a>
             </li>
 
             <li>
-              <a href="mailto:footcap@help.com" class="footer-link">
-                <ion-icon name="mail"></ion-icon>
-
-                <span class="footer-link-text">footcap@help.com</span>
-              </a>
-            </li>
-
-          </ul>
-
-          <ul class="footer-list">
-
-            <li>
-              <p class="footer-list-title">My Account</p>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">
-                <ion-icon name="chevron-forward-outline"></ion-icon>
-
-                <span class="footer-link-text">My Account</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">
-                <ion-icon name="chevron-forward-outline"></ion-icon>
-
-                <span class="footer-link-text">View Cart</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">
-                <ion-icon name="chevron-forward-outline"></ion-icon>
-
-                <span class="footer-link-text">Wishlist</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">
-                <ion-icon name="chevron-forward-outline"></ion-icon>
-
-                <span class="footer-link-text">Compare</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="footer-link">
-                <ion-icon name="chevron-forward-outline"></ion-icon>
-
-                <span class="footer-link-text">New Products</span>
+              <a href="mailto:nike@help.com" class="footer-link">
+                <i class="ti-email"></i>
+                <span class="footer-link-text">nike@help.com</span>
               </a>
             </li>
 
@@ -1403,39 +1198,27 @@
 
           <div class="footer-list">
 
-            <p class="footer-list-title">Opening Time</p>
+            <p class="footer-list-title">Thời Gian Mở Cửa</p>
 
             <table class="footer-table">
               <tbody>
 
                 <tr class="table-row">
-                  <th class="table-head" scope="row">Mon - Tue:</th>
+                  <th class="table-head" scope="row">Thứ 2 - Thứ 6:</th>
 
                   <td class="table-data">8AM - 10PM</td>
                 </tr>
 
                 <tr class="table-row">
-                  <th class="table-head" scope="row">Wed:</th>
-
-                  <td class="table-data">8AM - 7PM</td>
-                </tr>
-
-                <tr class="table-row">
-                  <th class="table-head" scope="row">Fri:</th>
-
-                  <td class="table-data">7AM - 12PM</td>
-                </tr>
-
-                <tr class="table-row">
-                  <th class="table-head" scope="row">Sat:</th>
+                  <th class="table-head" scope="row">Thứ 7:</th>
 
                   <td class="table-data">9AM - 8PM</td>
                 </tr>
 
                 <tr class="table-row">
-                  <th class="table-head" scope="row">Sun:</th>
+                  <th class="table-head" scope="row">Chủ Nhật:</th>
 
-                  <td class="table-data">Closed</td>
+                  <td class="table-data">Đóng Cửa</td>
                 </tr>
 
               </tbody>
@@ -1445,16 +1228,16 @@
 
           <div class="footer-list">
 
-            <p class="footer-list-title">Newsletter</p>
+            <p class="footer-list-title">Hỏi Đáp</p>
 
             <p class="newsletter-text">
-              Authoritatively morph 24/7 potentialities with error-free partnerships.
+              Bạn có câu hỏi gì cho chúng tôi không?
             </p>
 
             <form action="" class="newsletter-form">
-              <input type="email" name="email" required placeholder="Email Address" class="newsletter-input">
+              <input type="text" name="text" required placeholder="Nội dung" class="newsletter-input">
 
-              <button type="submit" class="btn btn-primary">Subscribe</button>
+              <button type="submit" class="btn btn-primary">Gửi</button>
             </form>
 
           </div>
@@ -1468,7 +1251,7 @@
       <div class="container">
 
         <p class="copyright">
-          &copy; 2022 <a href="#" class="copyright-link">codewithsadee</a>. All Rights Reserved
+          &copy; 2023 <a href="#" class="copyright-link">Nike, Inc.</a>. All Rights Reserved
         </p>
 
       </div>
@@ -1477,31 +1260,22 @@
   </footer>
 
 
-
-
-
-  <!-- 
-    - #GO TO TOP
-  -->
+  <!-- #GO TO TOP -->
 
   <a href="#top" class="go-top-btn" data-go-top>
-    <ion-icon name="arrow-up-outline"></ion-icon>
+    <i class="ti-arrow-up"></i>
   </a>
-
-
-
-
 
   <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+  <!-- <script src="./assets/js/script.js"></script> -->
 
   <!-- 
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> -->
+  <!-- <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
 
 </body>
 
